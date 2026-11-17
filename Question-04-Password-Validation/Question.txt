@@ -1,0 +1,66 @@
+Write a program to validate the given password. A password is said to be strong if it satisfies the following criteria
+  i) It should be a minimum of 10 characters and a maximum of 20 characters
+  ii) It should contain at least one digit
+  iii)It should contain at least one special character (!,@,#,$,%,^,&,*)
+
+If the password fails any one of the criteria, it is considered as weak.
+
+Create a class called User with the following private attributes.
+name as String
+mobile	as String
+username as String
+password as String
+ 
+Create a class called UserBO with the following methods.
+static void validate(User u) This method throws an Exception with a suitable message if the Password is weak.
+
+Create a Mainclass called PasswordMain to get inputs from the user. Validate the password and if there is an exception, handle the exception and prompt the user with a suitable message.
+
+Refer Sample input and output for the exact statement
+
+Input format :
+The first line of the input consists of a string
+The second line of the input consists of an integer.
+The third line of the input consists of an integer.
+The fourth line of the input consists of the Password
+
+Output format :
+The output prints Valid Password or suitable exception
+
+Refer to the sample input and output for format specifications.
+
+Code constraints :
+Special characters are !,@,#,$,%,^,&,*
+
+Sample test cases :
+Input 1 :
+John
+9874563210
+john
+john1#nhoj
+Output 1 :
+Valid Password
+
+Input 2 :
+John
+9874563210
+john
+john#nhoj
+Output 2 :
+java.lang.Exception: Should contain at least one digit
+
+Input 3 :
+John
+9874563210
+john
+john1nhoj
+Output 3 :
+java.lang.Exception: It should contain at least one special character
+
+Input 4 :
+John
+9874563210
+john
+john9#
+Output 4 :
+java.lang.Exception: Should be minimum of 10 characters and maximum of 20 characters
