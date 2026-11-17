@@ -1,0 +1,36 @@
+Create 4 classes: Person, Staff, TemporaryStaff, and a Main class to test.  The Person class will be inherited by the Staff class, and the Staff class will be again inherited by the TemporaryStaff class.
+
+In class Person, create the following data members and methods
+name as String
+Constructor, Getters, Setters, and method to display name
+In-class Staff, create the following data members and methods
+staffId as Integer
+Constructor, Getters, Setters, and method to display staffid
+In the class TemporaryStaff, create the following data members and methods
+days and hoursworked as integer
+Constructor, Getters, Setters, a method to calculate salary, and a method to display days, hours worked, and salary.
+
+Write a main class to test the above class. Refer to sample input and output for exact requirements.
+Note: Salary per hour is fixed as Rs.50
+
+Input format :
+The first line of the input consists of the name of the person.
+The second line of the input consists of the staff ID.
+The third line of the input consists of the days worked.
+The fourth line of the input consists of the number of hours worked per day.
+
+Output format :
+The output displays details about the employee and their salary.
+Sample test cases :
+Input 1 :
+Ram
+1001
+10
+8
+
+Output 1 :
+Ram
+1001
+10
+8
+4000
