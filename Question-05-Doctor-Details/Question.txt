@@ -1,0 +1,41 @@
+Hema wants to create a program that contains the classes Doctor and Main. Create a class Doctor with the following attributes: name, address, and ward number. Create an instance of the Doctor class and populate it with the entered information. Display the doctor's name, address, and ward number in the class Main.
+Implement a program to help Hema.
+
+Input format :
+The first line of input consists of the name of the doctor as a string.
+The second line of input consists of the address as a string.
+The third line of input consists of a ward number as a integer.
+
+Output format :
+The output displays the doctor's details in the following format :
+"Name : [name]"
+"Address : [address]"
+"Ward Number : [ward]"
+Here [name], [address], and [ward] should be replaced by the actual input.
+
+Refer to the sample output for the formatting specifications.
+
+Code constraints :
+In this scenario, the test cases fall under the following constraints:
+1 ≤ length of name ≤ 30
+1 ≤ length of address ≤ 50
+1 ≤ ward number ≤ 300
+
+Sample test cases :
+Input 1 :
+Raju
+Chennai
+34
+Output 1 :
+Name : Raju
+Address : Chennai
+Ward Number : 34
+
+Input 2 :
+Manju
+Coimbatore
+37
+Output 2 :
+Name : Manju
+Address : Coimbatore
+Ward Number : 37
