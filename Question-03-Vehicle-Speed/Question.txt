@@ -1,0 +1,18 @@
+Write a program with two classes: Vehicle as the base class and Car as the derived class, which inherits the properties from Vehicle for calculating the speed. 
+The base class contains a variable distance, and the derived class contains a variable time.
+Write a method in the derived class to calculate speed.
+Create an object for the derived class Car. Use the super() keyword to inherit the parameters from the base class to the derived class and calculate speed. Print the value of speed.
+
+Input format :
+The first line of the input consists of an integer 1, which represents distance.
+The second line of the input consists of integer 2, which represents time.
+
+Output format :
+The output displays the speed value.﻿
+
+Sample test cases :
+Input 1 :
+120
+80
+Output 1 :
+Speed: 1.5 km/h
