@@ -1,0 +1,32 @@
+For our application, we would have obtained date inputs. If the user enters a different format than what is specified, an Invalid Date Exception occurs and the program is interrupted. To avoid that, handle the exception and prompt the user to enter the right format as specified.
+
+Create a driver class called Main. In the main method, obtain the start time and end time for the stage event show; if an exception occurs, handle the exception and notify the user about the right format (refer to sample I/O).
+The format is "dd-MM-yyyy-HH:mm:ss."
+Input format :
+The first line of the input consists of the start time.
+The second line of the input consists of the end time.
+
+Output format :
+The output prints the time or the correct format for the input.
+
+Refer to the sample input and output for format specifications.
+
+Sample test cases :
+
+Input 1 :
+27-01-2017-12:0:0
+28-01-2017-12:0:0
+Output 1 :
+27-01-2017-12:0:0
+28-01-2017-12:0:0
+
+Input 2 :
+27-01-2017-12
+Output 2 :
+Input dates should be in the format dd-MM-yyyy-HH:mm:ss
+
+Input 3 :
+27-01-2017-12:0:0
+28-01-2017-12
+Output 3 :
+Input dates should be in the format dd-MM-yyyy-HH:mm:ss
